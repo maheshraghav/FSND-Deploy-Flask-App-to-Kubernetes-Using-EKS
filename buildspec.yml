@@ -38,8 +38,7 @@ phases:
       - printf '[{"name":"simple_jwt_api","imageUri":"%s"}]' $REPOSITORY_URI:$TAG > build.json
       - pwd
       - cat build.json
-      - ls
-      
+      - ls     
 artifacts:
   files: build.json
   
