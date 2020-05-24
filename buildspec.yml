@@ -39,6 +39,7 @@ phases:
       - pwd
       - cat build.json
       - ls
+      
 artifacts:
   files: build.json
   
